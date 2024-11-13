@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Alumni from "../../routes/alumni";
-import Card from "../Card/card";
+import Card from "../Card";
 
 const Navbar = () => {
   return (
