@@ -2,7 +2,9 @@ const Card = ({ heading, list1, list2, list3, list4, list5, list6, list7 }) => {
   return (
     <>
       <div className="card">
-        <div className="card-heading">{heading}</div>
+        <div className="card-heading">
+          <p>{heading}</p>
+        </div>
         <div className="card-body">
           <div className="list">
             <ul>

@@ -1,9 +1,47 @@
 * {
   margin: 0px;
   padding: 0px;
-
+  box-sizing: border-box;
   text-decoration: none;
   font-family: "Manrope";
+}
+body {
+  overflow-x: hidden;
+}
+/* feedback-card */
+.f-card {
+  width: 291px;
+  height: 589px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.f-card-name {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 43.83px;
+}
+.f-card-img img {
+  width: 169.03px;
+  height: 153.03px;
+  border-radius: 50%;
+  filter: brightness(250%);
+}
+.f-card-p1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.38px;
+}
+.f-card-p2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35.06px;
+}
+.f-card-p3 {
+  font-size: 28px;
+  font-weight: 500;
 }
 /* navbar */
 .navbar {
@@ -68,7 +106,6 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
   height: 100vh;
 }
 
@@ -96,7 +133,7 @@
   justify-content: center;
   align-items: center;
 }
-img {
+.img1 img {
   object-fit: cover;
   height: 461px;
   width: 466px;
@@ -114,7 +151,6 @@ img {
 /* section-2 */
 .sect2 {
   width: 100%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -160,6 +196,10 @@ img {
   color: white;
   display: flex;
   border-radius: 20px 20px 0 0;
+}
+.card-heading p {
+  margin-left: 20px;
+  margin-top: 15px;
 }
 .card-body {
   display: flex;
@@ -216,4 +256,99 @@ img {
 }
 .left-sect3-list2 {
   margin-left: 30px;
+}
+/* sect-4 */
+.sect-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 967px;
+  background-color: rgba(250, 239, 239, 1);
+  /* font-family: "Be Vietnam Pro", sans-serif; */
+  text-align: center;
+}
+.up-sect4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 165px;
+  line-height: 80px;
+}
+.up-sect4-heading {
+  font-size: 56px;
+  font-weight: 700;
+}
+.up-sect4-p {
+  font-size: 24px;
+  font-weight: 400;
+}
+.down-sect4 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1100px;
+  height: 718px;
+}
+
+/* sect-6 */
+.sect-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 835.94px;
+  text-align: center;
+}
+.up-sect6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1265.57px;
+  height: 165.33px;
+  color: rgba(240, 57, 57, 1);
+}
+.up-sect6-heading {
+  font-size: 56px;
+  font-weight: 700;
+}
+.up-sect-p1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.down-sect6 {
+  display: flex;
+  justify-content: space-around;
+
+  height: 641.94px;
+}
+/* sect-7 */
+.sect-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 599px;
+  background-color: rgba(250, 239, 239, 1);
+  text-align: center;
+}
+
+.sect7-heading {
+  font-size: 56px;
+  font-weight: 700;
+}
+.sect7-p1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.imgs {
+  width: 1282px;
+  height: 112.36px;
+}
+.imgs img {
+  width: 130.1px;
+  height: 59.23px;
+  object-fit: contain;
 }
