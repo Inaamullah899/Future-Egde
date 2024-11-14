@@ -17,7 +17,7 @@ const Navbar = () => {
               <Link to="/courses">Course </Link>
             </li>
             <li>
-              <Link to="/testimonials">Testimonials</Link>
+              <Link to="/testimonial">Testimonials</Link>
             </li>
             <li>
               <Link to="/why">Why FutureEdge</Link>
@@ -169,7 +169,7 @@ const Navbar = () => {
         </div>
       </div>
       {/* sect-4 */}
-      <div className="sect-4">
+      <div className="sect-4" id="testimonials">
         <div className="up-sect4">
           <div className="up-sect4-heading">What our Learners Say</div>
           <div className="up-sect4-p">
